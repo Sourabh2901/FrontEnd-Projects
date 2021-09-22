@@ -1,0 +1,74 @@
+/*RESPONSIVENESS FOR MUSIC PLAYER PAGE*/
+
+@media screen and (max-width: 550px){
+
+	main{
+		width : 100% !important;
+	}
+
+	aside{
+		width: 90% !important;
+		height: 50vh !important;
+		border : 1px solid white;
+		margin-top: 15% !important; 
+		/*margin-bottom: 5% !important;*/
+		box-shadow: 0 0 4px 4px white;
+	}
+
+	#notification-bell{
+		font-size: 1.5rem !important;
+	}
+
+	#notification-bell::after{
+		position: absolute !important;
+		right: 4% !important;
+	}
+
+	#search{
+		width: 20vw !important;
+	}
+
+	.mic , .magnifying-glass{
+		font-size: 0.8rem !important;
+		padding-top: 2%;
+	}
+
+	.inside-search input{
+		padding-left: 20% !important; 
+	}
+
+	#page3-aside{
+		display: flex;
+	}
+
+	.page3-container{
+		margin-bottom: 0 !important;
+	}
+
+	#page3-similar-artist{
+		width: 49vw !important;
+	}
+
+	#page3-recently-played{
+		width: 49vw !important;
+		margin-top: 3.5%;
+		margin-left: 2%;
+	}
+
+	#aside-header{
+		height: 10vh;
+	}
+
+	#page3-aside-container{
+		height: 134% !important;
+		/*border: 1px solid white;*/
+		margin-bottom: 0 !important;
+	}
+
+
+
+}
+
+
+
+
